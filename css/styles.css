@@ -29,13 +29,27 @@ a {
     text-decoration: none;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .container {
         width: 320px;
         max-width: 100%;
     }
 
- .main {
+.benefits-list {
+display: flex;
+flex-direction: column;
+flex-basis: calc((100%-72px)/4);
+justify-content: center;
+}
+    .mob {
+        display: none;
+    }
+
+.benefits-list {
+    display: none;
+}
+
+.main {
 background-image: linear-gradient(rgba(46, 47, 66, 0.7),
  rgba(46, 47, 66, 0.7)),
 url(../images/mobile-bg.jpg);
@@ -188,9 +202,8 @@ color: rgba(46, 47, 66, 1);
 .mobile-icon {
     fill: #f4f4fd;
 }
-.benefits-icon {
-    display: none;
-}
+
+
 }
 
 img {
@@ -979,4 +992,12 @@ text-decoration: underline;
 .form-btn:hover,
 .form-btn:focus {
     background-color: #404BBF;
+}
+
+.backdrop-mobile {
+    display: none;
+}
+
+.mobile-burger {
+    display: none;
 }
