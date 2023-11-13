@@ -30,6 +30,42 @@ a {
     text-decoration: none;
 }
 
+ .form-btn {
+     display: block;
+     min-width: 169px;
+     height: 56px;
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 1.5;
+     letter-spacing: 0.04em;
+     color: #ffffff;
+     cursor: pointer;
+     background-color: #4D5AE5;
+     border: none;
+     border-radius: 4px;
+     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+  .button {
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+      min-width: 169px;
+      border-radius: 4px;
+      margin-top: 72px;
+      padding: 16px 32px;
+      border: none;
+      color: #FFFFFF;
+      background-color: #4D5AE5;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      cursor: pointer;
+      line-height: 1.5;
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
 img {
     display: block;
     max-width: 100%;
@@ -58,6 +94,7 @@ img {
 }
 
 @media screen and (max-width: 767px) and (min-resolution: 192dpi) {
+    
     .container {
     width: 320px;
     max-width: 100%;
@@ -102,7 +139,6 @@ img {
         width: 288px;
         margin-right: auto;
         margin-left: auto;
-        font-family: Roboto;
         font-size: 36px;
         font-weight: 700;
         line-height: 40px;
@@ -110,25 +146,6 @@ img {
         text-align: center;
         color: rgba(255, 255, 255, 1);
     }
-
-    .button {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    min-width: 169px;
-    border-radius: 4px;
-    margin-top: 72px;
-    padding: 16px 32px;
-    border: none;
-    color: #FFFFFF;
-    background-color: #4D5AE5;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    letter-spacing: 0.04em;
-    cursor: pointer;
-    line-height: 1.5;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        }
     
     .button:hover,
     .button:focus {
@@ -156,7 +173,6 @@ img {
     }
 
 .menu-link {
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     color: #2e2f42;
     padding: 24px 0;
@@ -332,7 +348,6 @@ column-gap: 24px;
 }
 
  .benefits-text {
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -342,7 +357,6 @@ column-gap: 24px;
  }
 
  .second-title {
-     font-family: 'Roboto', sans-serif;
      font-weight: 700;
      font-size: 36px;
      line-height: 1.11;
@@ -417,7 +431,6 @@ column-gap: 24px;
  }
 
  .team-name {
-     font-family: 'Roboto', sans-serif;
      font-weight: 500;
      font-size: 20px;
      line-height: 1.2;
@@ -437,7 +450,6 @@ column-gap: 24px;
  }
 
  .about-member {
-     font-family: 'Roboto', sans-serif;
      font-weight: 400;
      color: #434455;
      text-align: center;
@@ -448,7 +460,6 @@ column-gap: 24px;
  }
 
  .third-title {
-     font-family: 'Roboto', sans-serif;
      font-weight: 700;
      font-size: 36px;
      line-height: 1.11;
@@ -484,14 +495,12 @@ column-gap: 24px;
  }
 
  .portfolio-text {
-     font-family: 'Roboto', sans-serif;
      font-weight: 400;
      letter-spacing: 0.02em;
      color: #434455;
  }
 
  .portfolio-title {
-     font-family: 'Roboto', sans-serif;
      font-weight: 500;
      font-size: 20px;
      line-height: 1.2;
@@ -578,10 +587,9 @@ column-gap: 24px;
  }
 
  .footer-text {
-     font-family: 'Roboto', sans-serif;
-     font-weight: 400;
-     color: #F4F4FD;
-     max-width: 288px;
+    font-weight: 400;
+    color: #F4F4FD;
+    max-width: 288px;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -610,7 +618,6 @@ column-gap: 24px;
      margin-left: 120px;
  }
  .form-title {
-     font-family: 'Roboto', sans-serif;
      color: rgba(255, 255, 255, 1);
      font-weight: 500;
      letter-spacing: 0.02em;
@@ -656,7 +663,6 @@ column-gap: 24px;
 
  .input-email::placeholder {
      color: #ffffff;
-     font-family: 'Roboto', sans-serif;
      font-weight: 400;
      font-size: 12px;
      line-height: 2;
@@ -670,7 +676,6 @@ column-gap: 24px;
      margin-left: auto;
      margin-right: auto;
      max-width: 165px;
-     font-family: 'Roboto', sans-serif;
      font-weight: 500;
      font-size: 16px;
      line-height: 1.5;
@@ -761,7 +766,6 @@ column-gap: 24px;
 
  .form-text {
      color: rgba(46, 47, 66, 1);
-     font-family: 'Roboto', sans-serif;
      font-weight: 500;
      font-size: 16px;
      line-height: 1.5;
@@ -773,7 +777,6 @@ column-gap: 24px;
 
  .form-label {
      display: block;
-     font-family: Roboto;
      font-size: 12px;
      font-weight: 400;
      line-height: 1.17;
@@ -814,7 +817,6 @@ column-gap: 24px;
      border-radius: 4px;
      padding: 8px 16px;
      resize: none;
-     font-family: 'Roboto', sans-serif;
      font-size: 12px;
      font-weight: 400;
      line-height: 1.17;
@@ -887,25 +889,6 @@ column-gap: 24px;
      text-decoration: underline;
  }
 
- .form-btn {
-     display: block;
-     min-width: 169px;
-     height: 56px;
-     font-family: "Roboto", sans-serif;
-     font-size: 16px;
-     font-weight: 500;
-     line-height: 1.5;
-     letter-spacing: 0.04em;
-     color: #ffffff;
-     cursor: pointer;
-     background-color: #4D5AE5;
-     border: none;
-     border-radius: 4px;
-     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-     margin-left: auto;
-     margin-right: auto;
- }
-
  .form-btn:hover,
  .form-btn:focus {
      background-color: #404BBF;
@@ -952,7 +935,6 @@ column-gap: 24px;
     align-items: center;
 }
 .menu-link {
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     color: #2e2f42;
     padding: 24px 0;
@@ -1036,30 +1018,10 @@ column-gap: 24px;
         font-weight: 700;
         line-height: 1.1;
         letter-spacing: 0.02em;
-        font-family: Roboto;
         font-weight: 700;
         letter-spacing: 0.02em;
         text-align: center;
         color: rgba(255, 255, 255, 1);
-    }
-
-    .button {
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-        min-width: 169px;
-        border-radius: 4px;
-        margin-top: 72px;
-        padding: 16px 32px;
-        border: none;
-        color: #FFFFFF;
-        background-color: #4D5AE5;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 500;
-        letter-spacing: 0.04em;
-        cursor: pointer;
-        line-height: 1.5;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .button:hover,
@@ -1092,7 +1054,6 @@ column-gap: 24px;
     }
 
     .add-header {
-        font-family: Roboto;
         font-size: 20px;
         font-weight: 500;
         line-height: 24px;
@@ -1126,7 +1087,6 @@ column-gap: 24px;
     }
 
     .benefits-title {
-        font-family: Roboto;
         font-size: 36px;
         font-weight: 700;
         line-height: 40px;
@@ -1143,7 +1103,6 @@ column-gap: 24px;
     }
 
     .benefits-text {
-        font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
         line-height: 24px;
@@ -1153,7 +1112,6 @@ column-gap: 24px;
     }
 
     .second-title {
-        font-family: 'Roboto', sans-serif;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
@@ -1235,7 +1193,6 @@ column-gap: 24px;
     }
 
     .team-name {
-        font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -1255,7 +1212,6 @@ column-gap: 24px;
     }
 
     .about-member {
-        font-family: 'Roboto', sans-serif;
         font-weight: 400;
         color: #434455;
         text-align: center;
@@ -1266,7 +1222,6 @@ column-gap: 24px;
     }
 
     .third-title {
-        font-family: 'Roboto', sans-serif;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
@@ -1305,14 +1260,12 @@ column-gap: 24px;
     }
 
     .portfolio-text {
-        font-family: 'Roboto', sans-serif;
         font-weight: 400;
         letter-spacing: 0.02em;
         color: #434455;
     }
 
     .portfolio-title {
-        font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -1402,7 +1355,6 @@ column-gap: 24px;
     }
 
     .footer-text {
-        font-family: 'Roboto', sans-serif;
         font-weight: 400;
         color: #F4F4FD;
         max-width: 288px;
@@ -1435,7 +1387,6 @@ column-gap: 24px;
     }
 
     .form-title {
-        font-family: 'Roboto', sans-serif;
         color: rgba(255, 255, 255, 1);
         font-weight: 500;
         letter-spacing: 0.02em;
@@ -1478,7 +1429,6 @@ column-gap: 24px;
 
     .input-email::placeholder {
         color: #ffffff;
-        font-family: 'Roboto', sans-serif;
         font-weight: 400;
         font-size: 12px;
         line-height: 2;
@@ -1492,7 +1442,6 @@ column-gap: 24px;
         margin-left: auto;
         margin-right: auto;
         max-width: 165px;
-        font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -1583,7 +1532,6 @@ column-gap: 24px;
 
 .form-text {
     color: rgba(46, 47, 66, 1);
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -1594,7 +1542,6 @@ column-gap: 24px;
 
 .form-label {
     display: block;
-    font-family: Roboto;
     font-size: 12px;
     font-weight: 400;
     line-height: 1.17;
@@ -1633,7 +1580,6 @@ column-gap: 24px;
     border-radius: 4px;
     padding: 8px 16px;
     resize: none;
-    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     font-weight: 400;
     line-height: 1.17;
@@ -1704,25 +1650,6 @@ column-gap: 24px;
 .privacy-link {
     color: #4d5ae5;
     text-decoration: underline;
-}
-
-.form-btn {
-    display: block;
-    min-width: 169px;
-    height: 56px;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    cursor: pointer;
-    background-color: #4D5AE5;
-    border: none;
-    border-radius: 4px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .form-btn:hover,
@@ -1798,7 +1725,6 @@ column-gap: 24px;
         }
     
         .menu-link {
-            font-family: 'Roboto', sans-serif;
             font-weight: 500;
             color: #2e2f42;
             padding: 24px 0;
@@ -1857,31 +1783,12 @@ column-gap: 24px;
             margin-right: auto;
             margin-bottom: 48px;
             margin-left: auto;
-            font-family: 'Roboto', sans-serif;
             font-weight: 700;
             font-size: 56px;
             line-height: 1.07;
             text-align: center;
             color: #FFFFFF;
             letter-spacing: 0.02em;
-        }
-    
-        .button {
-            display: block;
-            margin-right: auto;
-            margin-left: auto;
-            min-width: 169px;
-            border-radius: 4px;
-            padding: 16px 32px;
-            border: none;
-            color: #FFFFFF;
-            background-color: #4D5AE5;
-            font-family: 'Roboto', sans-serif;
-            font-weight: 500;
-            letter-spacing: 0.04em;
-            cursor: pointer;
-            line-height: 1.5;
-            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
     
         .button:hover,
@@ -1907,7 +1814,6 @@ column-gap: 24px;
         }
     
         .benefits-title {
-            font-family: 'Roboto', sans-serif;
             font-weight: 500;
             font-size: 20px;
             line-height: 1.2;
@@ -1940,13 +1846,11 @@ column-gap: 24px;
         }
     
         .benefits-text {
-            font-family: 'Roboto', sans-serif;
             font-weight: 400;
             color: #434455;
         }
     
         .second-title {
-            font-family: 'Roboto', sans-serif;
             font-weight: 700;
             font-size: 36px;
             line-height: 1.11;
@@ -2021,7 +1925,6 @@ column-gap: 24px;
         }
     
         .team-name {
-            font-family: 'Roboto', sans-serif;
             font-weight: 500;
             font-size: 20px;
             line-height: 1.2;
@@ -2041,14 +1944,12 @@ column-gap: 24px;
         }
     
         .about-member {
-            font-family: 'Roboto', sans-serif;
             font-weight: 400;
             color: #434455;
             text-align: center;
         }
     
         .third-title {
-            font-family: 'Roboto', sans-serif;
             font-weight: 700;
             font-size: 36px;
             line-height: 1.11;
@@ -2083,7 +1984,6 @@ column-gap: 24px;
         }
     
         .portfolio-title {
-            font-family: 'Roboto', sans-serif;
             font-weight: 500;
             font-size: 20px;
             line-height: 1.2;
@@ -2128,7 +2028,6 @@ column-gap: 24px;
         }
     
         .portfolio-text {
-            font-family: 'Roboto', sans-serif;
             font-weight: 400;
             letter-spacing: 0.02em;
             color: #434455;
@@ -2202,7 +2101,6 @@ column-gap: 24px;
         }
     
         .footer-text {
-            font-family: 'Roboto', sans-serif;
             font-weight: 400;
             color: #F4F4FD;
             max-width: 264px;
@@ -2265,11 +2163,10 @@ column-gap: 24px;
         }
     
         .input-email::placeholder {
-            color: #ffffff;
-            font-family: 'Roboto', sans-serif;
-            font-weight: 400;
-            font-size: 12px;
-            line-height: 2;
+        color: #ffffff;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 2;
         }
     
         .sub-btn {
@@ -2278,7 +2175,6 @@ column-gap: 24px;
             justify-content: center;
             align-items: center;
             min-width: 165px;
-            font-family: 'Roboto', sans-serif;
             font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
@@ -2370,7 +2266,6 @@ column-gap: 24px;
     
         .form-text {
             color: rgba(46, 47, 66, 1);
-            font-family: 'Roboto', sans-serif;
             font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
@@ -2381,7 +2276,6 @@ column-gap: 24px;
     
         .form-label {
             display: block;
-            font-family: Roboto;
             font-size: 12px;
             font-weight: 400;
             line-height: 1.17;
@@ -2420,7 +2314,6 @@ column-gap: 24px;
             border-radius: 4px;
             padding: 8px 16px;
             resize: none;
-            font-family: 'Roboto', sans-serif;
             font-size: 12px;
             font-weight: 400;
             line-height: 1.17;
@@ -2491,25 +2384,6 @@ column-gap: 24px;
         .privacy-link {
             color: #4d5ae5;
             text-decoration: underline;
-        }
-    
-        .form-btn {
-            display: block;
-            min-width: 169px;
-            height: 56px;
-            font-family: "Roboto", sans-serif;
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 1.5;
-            letter-spacing: 0.04em;
-            color: #ffffff;
-            cursor: pointer;
-            background-color: #4D5AE5;
-            border: none;
-            border-radius: 4px;
-            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-            margin-left: auto;
-            margin-right: auto;
         }
     
         .form-btn:hover,
