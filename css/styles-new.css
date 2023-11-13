@@ -961,6 +961,7 @@ gap: 72px;
         0px 1px 6px rgba(46, 47, 66, 0.08);
     padding-left: 16px;
     padding-right: 16px;
+    width: 768px;
 }
 
 
@@ -1232,8 +1233,6 @@ gap: 72px;
 
     .portfolio-item {
         width: 288px;
-        margin-left: auto;
-        margin-right: auto;
         align-items: center;
         flex-basis: calc((100% - 48px) / 2);
     }
@@ -2347,3 +2346,4 @@ line-height: 1.07;
         display: none;
     }
     }
+
