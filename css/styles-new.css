@@ -105,6 +105,7 @@ img {
         flex-direction: column;
         flex-basis: calc((100%-72px)/4);
         justify-content: center;
+        margin-bottom: 96px;
     }
 
     .mob {
