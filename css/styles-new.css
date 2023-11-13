@@ -72,6 +72,17 @@ img {
     height: auto;
 }
 
+.main {
+background-color: #2e2f42;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+margin-right: auto;
+margin-left: auto;
+padding-top: 188px;
+padding-bottom: 188px;
+}
+
 .logo {
     color: #2e2f42;
 }
@@ -117,18 +128,10 @@ img {
     }
 
     .main {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)),
-            url(../images/mobile-bg.jpg);
-        background-color: #2e2f42;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        margin-right: auto;
-        margin-left: auto;
-        padding-top: 188px;
-        padding-bottom: 188px;
-        max-width: 767px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),
+    url(../images/mobile-bg.jpg);
+    max-width: 767px;
     }
 
     .btn-mob:hover,
@@ -997,17 +1000,9 @@ column-gap: 24px;
 
     .main {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)),
-            url(../images/Dark-bg-tablet.jpg);
-        background-color: #2e2f42;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        margin-right: auto;
-        margin-left: auto;
-        padding-top: 188px;
-        padding-bottom: 188px;
-        max-width: 1157px;
+    rgba(46, 47, 66, 0.7)),
+    url(../images/Dark-bg-tablet.jpg);
+    max-width: 1157px;
     }
 
     .first-title {
@@ -1766,17 +1761,9 @@ column-gap: 24px;
     
         .main {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                    rgba(46, 47, 66, 0.7)),
-                url(../images/people-office.jpg);
-            background-color: #2e2f42;
-            background-size: cover;
-            background-repeat: no-repeat;
-            max-width: 1440px;
-            background-position: center;
-            margin-right: auto;
-            margin-left: auto;
-            padding-top: 188px;
-            padding-bottom: 188px;
+ rgba(46, 47, 66, 0.7)),
+url(../images/people-office.jpg);
+max-width: 1440px;            
         }
     
         .first-title {
