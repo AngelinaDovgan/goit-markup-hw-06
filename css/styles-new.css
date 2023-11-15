@@ -1133,12 +1133,6 @@ gap: 72px;
         display: none;
     }
 
-    .mob-cont-b {
-        width: 288px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-
     .container {
         width: 768px;
         padding-left: 16px;
