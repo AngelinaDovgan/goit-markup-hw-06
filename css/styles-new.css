@@ -1048,6 +1048,8 @@ gap: 72px;
 }
     .benefits-list {
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         gap: 24px;
     }
 
