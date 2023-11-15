@@ -1052,6 +1052,7 @@ gap: 72px;
         flex-direction: row;
         flex-wrap: wrap;
         gap: 24px;
+        row-gap: 72px;
     }
 
 .benefits-items {
