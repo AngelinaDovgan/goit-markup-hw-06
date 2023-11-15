@@ -309,6 +309,7 @@ transform: translateX(0);
 
     .mobile-container {
         width: 151px;
+        margin-bottom: 168px;
     }
 
     .backdrop-mobile {
